@@ -13,12 +13,11 @@ on:
         KERNEL_SOURCE:
           description: 'Kernel Source'
           required: true
-          default: "https://github.com/PixelExperience-Devices/kernel_oneplus_martini.git"
-          type: string
+          default: "https://github.com/OnePlusOSS/android_kernel_oneplus_sm8350"
         KERNEL_SOURCE_BRANCH:
           description: 'kernel Branch'
           required: true
-          default: "master"
+          default: "oneplus/SM8350_R_11.0_9RT"
           type: string
         KERNEL_DEFCONFIG:
           description: 'Kernel Config'
