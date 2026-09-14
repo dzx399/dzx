@@ -18,7 +18,7 @@ on:
         KERNEL_SOURCE_BRANCH:
           description: 'kernel Branch'
           required: true
-          default: "eleven"
+          default: "master"
           type: string
         KERNEL_DEFCONFIG:
           description: 'Kernel Config'
