@@ -18,7 +18,7 @@ on:
         KERNEL_SOURCE_BRANCH:
           description: 'kernel Branch'
           required: true
-          default: "oxygenos-11"
+          default: "eleven"
           type: string
         KERNEL_DEFCONFIG:
           description: 'Kernel Config'
