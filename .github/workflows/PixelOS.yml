@@ -64,12 +64,8 @@ jobs:
 
       - name: Setup Environment
         run: |
-          export CLANG_PATH=~/clang
-          git clone --depth=1 https://github.com/kdrag0n/proton-clang $CLANG_PATH
-          sh -c "$(curl -sSL https://raw.githubusercontent.com/akhilnarang/scripts/master/setup/android_build_env.sh)"
-          sudo apt install --fix-missing
-          export LLVM_VERSION=11
-          wget https://apt.llvm.org/llvm.sh
+          export CLANG_PATH=$GITHUB_WORKSPACE/proton-clang
+          git clone --depth=1 https://github.com/kdrag0n/proton-clang $CLANG_PATH  
           chmod +x llvm.sh
           sudo ./llvm.sh $LLVM_VERSION
           rm ./llvm.sh
