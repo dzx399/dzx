@@ -13,7 +13,7 @@ on:
         KERNEL_SOURCE:
           description: 'Kernel Source'
           required: true
-          default: "https://github.com/osm0sis/android_kernel_oneplus_sm8350"
+          default: "https://github.com/OnePlusOSS/android_kernel_oneplus_sm8350"
           type: string
         KERNEL_SOURCE_BRANCH:
           description: 'kernel Branch'
