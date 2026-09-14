@@ -18,12 +18,12 @@ on:
         KERNEL_SOURCE_BRANCH:
           description: 'kernel Branch'
           required: true
-          default: "android-11.0"
+          default: "oxygenos-11"
           type: string
         KERNEL_DEFCONFIG:
           description: 'Kernel Config'
           required: true
-          default: "martini_perf_defconfig"
+          default: "martini_defconfig"
           type: string
         KERNELSU_CONFIG:
           description: 'Compile KernelSU'
